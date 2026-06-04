@@ -124,13 +124,13 @@ disease-symptoms-powerbi-dashboard/
 ├── chart_treemap.html
 │
 ├── docs/                                   # README preview images
-│   ├── full_dashboard.png
-│   ├── top10_diseases.png
-│   ├── severity_donut.png
-│   ├── top20_symptoms.png
-│   ├── heatmap_matrix.png
-│   ├── risk_scatter.png
-│   └── treemap.png
+│   ├── disease_dashboard_FULL.png
+│   ├── chart_top10_diseases.png
+│   ├── chart_severity_donut.png
+│   ├── chart_top20_symptoms.png
+│   ├── chart_heatmap_matrix.png
+│   ├── chart_risk_scatter.png
+│   └── chart_treemap.png
 │
 └── README.md
 ```
