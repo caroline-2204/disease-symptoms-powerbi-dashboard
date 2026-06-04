@@ -1,7 +1,7 @@
 # 🏥 Disease & Symptoms Analytics Dashboard
 ### A Full Power BI–Style Dashboard Built in Python
 
-![Full Dashboard](full_dashboard.png)
+![Full Dashboard](disease_dashboard_FULL.png)
 
 ---
 
