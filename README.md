@@ -1,7 +1,7 @@
 # 🏥 Disease & Symptoms Analytics Dashboard
 ### A Full Power BI–Style Dashboard Built in Python
 
-![Full Dashboard](docs/full_dashboard.png)
+![Full Dashboard](full_dashboard.png)
 
 ---
 
@@ -69,42 +69,42 @@ open disease_dashboard_FULL.html
 ### 🏆 Top 10 Most Common Diseases
 > Bar chart showing disease occurrence ranked by row count — equivalent to Power BI's Top N filter with RANKX measure.
 
-![Top 10 Diseases](docs/top10_diseases.png)
+![Top 10 Diseases](chart_top10_diseases.png)
 
 ---
 
 ### 🩺 Severity Category Distribution
 > Donut chart splitting all records by Mild / Moderate / Critical severity — built from a Conditional Column transformation.
 
-![Severity Donut](docs/severity_donut.png)
+![Severity Donut](chart_severity_donut.png)
 
 ---
 
 ### 💊 Top 20 Most Frequent Symptoms (Coloured by Severity)
 > Horizontal bar chart with a continuous colour scale mapped to average severity score per symptom — equivalent to Power BI conditional formatting.
 
-![Top 20 Symptoms](docs/top20_symptoms.png)
+![Top 20 Symptoms](chart_top20_symptoms.png)
 
 ---
 
 ### 🔥 Symptom Frequency Heatmap — Disease × Position
 > Matrix visual showing how often each symptom position appears per disease. Colour intensity = frequency — equivalent to Power BI's Matrix visual with heatmap conditional formatting.
 
-![Heatmap Matrix](docs/heatmap_matrix.png)
+![Heatmap Matrix](chart_heatmap_matrix.png)
 
 ---
 
 ### ⚠️ Disease Risk Matrix — Frequency vs Severity
 > Bubble scatter plot: X = average severity, Y = occurrence count, bubble size = symptom diversity. Equivalent to Power BI's Scatter/Bubble chart with play axis.
 
-![Risk Scatter](docs/risk_scatter.png)
+![Risk Scatter](chart_risk_scatter.png)
 
 ---
 
 ### 🗺️ Disease Treemap — Occurrence & Severity
 > Treemap where tile size = disease frequency and colour = average severity. Equivalent to Power BI's Treemap visual.
 
-![Treemap](docs/treemap.png)
+![Treemap](chart_treemap.png)
 
 ---
 
@@ -123,7 +123,7 @@ disease-symptoms-powerbi-dashboard/
 ├── chart_risk_scatter.html
 ├── chart_treemap.html
 │
-├── docs/                                   # README preview images
+├── chart_                                   # README preview images
 │   ├── disease_dashboard_FULL.png
 │   ├── chart_top10_diseases.png
 │   ├── chart_severity_donut.png
